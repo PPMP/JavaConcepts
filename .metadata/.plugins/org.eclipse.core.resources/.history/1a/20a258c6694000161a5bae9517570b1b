@@ -1,5 +1,0 @@
-public class Coffee {
-	private enum coffeeSize{ SMALL, MEDIUM, LARGE}
-	coffeeSize size;
-
-}
