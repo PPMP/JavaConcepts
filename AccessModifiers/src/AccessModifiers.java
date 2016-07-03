@@ -2,7 +2,7 @@
 public class AccessModifiers {
 	int age; //package private
 	private int ageTwo; //cannot be accessed by class test
-	protected int ageThree; //can be inherited and accessed 
+	protected int ageThree; //can be inherited and accessed in subclass 
 	public static void lol(){}; //can be called without creating obj
 }
 
@@ -11,5 +11,6 @@ class test {
 	/* can be used in class test because AccessModifier is public */
 	AccessModifiers man = new AccessModifiers(); 
 	man.age = 10;
+	man.ageThree = 10;
 	}
 }
