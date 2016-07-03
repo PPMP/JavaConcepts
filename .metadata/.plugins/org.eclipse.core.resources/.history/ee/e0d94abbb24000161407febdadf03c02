@@ -1,6 +1,7 @@
 public class Singleton {
 	//Class that allows only one instance
 	private static Singleton singleton = new Singleton();
+	int age;
 	   
 	   /* A private Constructor prevents any other 
 	    * class from instantiating.

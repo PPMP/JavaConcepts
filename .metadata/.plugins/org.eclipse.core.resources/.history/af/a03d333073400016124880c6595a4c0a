@@ -1,6 +1,7 @@
 public class Singleton {
 	//Class that allows only one instance
 	private static Singleton singleton = new Singleton();
+	int age;
 	   
 	   /* A private Constructor prevents any other 
 	    * class from instantiating.
@@ -13,7 +14,7 @@ public class Singleton {
 	   }
 
     public static void main(String[] args) {
-    	Singleton first = new Singleton();
+    	Singleton first = Singleton.getInstance();
     	Singleton second = Singleton.getInstance(); //will reference the same instance created
     }
 }
