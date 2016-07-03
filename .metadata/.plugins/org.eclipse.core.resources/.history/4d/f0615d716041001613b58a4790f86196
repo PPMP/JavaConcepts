@@ -1,0 +1,12 @@
+
+public class Arrays {
+
+	public static void main(String args[]){
+		int[] integer = {1,2,3};
+		int[] integerTwo = new int[]{1,2,3};
+		for(int i : integerTwo){
+			System.out.println(i);
+		}
+		
+	}
+}
