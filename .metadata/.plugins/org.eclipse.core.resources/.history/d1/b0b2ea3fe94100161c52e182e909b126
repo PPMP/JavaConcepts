@@ -3,7 +3,6 @@ public class WrapperClasses {
 	public static void main(String args[]){
 	Integer $9 = 9; //converted to object
 	int $10 = 10;
-	String myName = "Patorn";
 	String myString = new String("Yea");
 	System.out.println(myString.toString());
 	if(myString.toString() instanceof String){
@@ -26,6 +25,5 @@ public class WrapperClasses {
 	System.out.println(result);
 	String ten = Integer.toString($10); //or String.valueOf($10)
 	System.out.println(ten instanceof String);
-	System.out.println("Length of my name is " + myName.length());
   }
 }
