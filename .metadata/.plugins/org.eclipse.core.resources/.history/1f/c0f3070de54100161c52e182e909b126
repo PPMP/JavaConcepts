@@ -1,0 +1,16 @@
+
+public class WrapperClasses {
+	public static void main(String args[]){
+	Integer $9 = 9;
+	String myString = new String("Yea");
+	System.out.println(myString.toString());
+	if(myString.toString() instanceof String){
+		System.out.println("yea its a string");
+	}
+	System.out.println($9.toString());
+	if($9.toString() instanceof String){
+		System.out.println("$9 instance of Integer");
+	}
+	
+  }
+}

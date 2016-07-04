@@ -1,0 +1,7 @@
+
+public class WrapperClasses {
+	public static void main(String args[]){
+	String myString = new String("Yea");
+	System.out.println(myString.toString());
+	}
+}
