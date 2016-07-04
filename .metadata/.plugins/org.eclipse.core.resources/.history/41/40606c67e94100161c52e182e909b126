@@ -27,6 +27,5 @@ public class WrapperClasses {
 	String ten = Integer.toString($10); //or String.valueOf($10)
 	System.out.println(ten instanceof String);
 	System.out.println("Length of my name is " + myName.length());
-	//in array its length
   }
 }
