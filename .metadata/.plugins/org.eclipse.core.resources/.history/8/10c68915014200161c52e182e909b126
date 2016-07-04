@@ -28,9 +28,5 @@ public class WrapperClasses {
 	System.out.println(ten instanceof String);
 	System.out.println("Length of my name is " + myName.length());
 	//in array its length
-	Integer[] integerArray = {1,2,3};
-	for(Integer i : integerArray){
-		System.out.println(i); //if int i then unbox to int type
-	}
   }
 }
