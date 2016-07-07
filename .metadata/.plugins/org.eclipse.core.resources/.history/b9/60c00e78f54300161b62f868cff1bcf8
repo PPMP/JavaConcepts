@@ -1,0 +1,22 @@
+
+public class OuterClass {
+	private int age = 99;
+	public OuterClass(){
+		System.out.println("Hello");
+		InnerClass inner = new InnerClass();
+		
+	}
+	
+	private static class InnerClass{
+		private int cool;
+		public InnerClass(){
+			System.out.println("Hello its me inner class ");
+		}
+	}
+
+	public static void main(String args[]){
+		OuterClass outer = new OuterClass();
+		//OuterClass.InnerClass inner = outer.new InnerClass();
+		new InnerClass();
+	}
+}
