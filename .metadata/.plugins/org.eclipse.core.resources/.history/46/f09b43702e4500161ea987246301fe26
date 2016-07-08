@@ -1,0 +1,6 @@
+package Package.Two;
+
+import Package.One.ClassTwo;
+	
+public class ClassThree extends ClassTwo{
+}

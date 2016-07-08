@@ -1,0 +1,10 @@
+package Package.One;
+
+public class ClassTwo{
+	public int size;
+	public static void main(String args[]){
+		ClassTwo two = new ClassTwo();
+//		two.age = 9;
+//		two.height = 6;
+	}
+}
