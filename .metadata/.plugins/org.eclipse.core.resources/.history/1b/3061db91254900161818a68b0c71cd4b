@@ -1,10 +1,8 @@
 /*Demonstrating inner classes
 InnerClass can be static - makes it stand alone class
 can instantiate by calling constructor directly. Static/Non Static classes and methods 
-can access static fields. However, static methods cannot access non static fields directly 
-unless the class is instantiated so the newly created object can access the non static
-field.Static means independent of instances of class.
-Inner class can access instance variables and methods of super class
+can access static fields. Static means independent of instances of classe.
+Innerclass can access instance variables and methods of super class
 Super class has access to Inner class with instantiation and initialization of inner
 classes constructor*/
 public class OuterClass {

@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="OuterClass.InnerClass"/>
+<fullyQualifiedTypeName name="Package.One.ClassTwo"/>
 </qualifiedTypeNameHistroy>
