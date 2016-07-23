@@ -14,5 +14,7 @@ public class Main {
         System.out.println("Your car has fuel type: " + yourCar.getFuel());
         System.out.println("Your car has " + yourCar.numberOfWheels() + " wheels.");
         //yourCar.hover(); Trying to access something that's not in the parent class (not legal)
+        /** In compile time, the check is made on the reference type. However, in the runtime, JVM figures out
+        the object type and would run the method that belongs to that particular object. **/
     }
 }
